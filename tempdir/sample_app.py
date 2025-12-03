@@ -7,14 +7,9 @@ def main():
     return render_template("index.html", request=request)
 
 if __name__ == "__main__":
-
     sample.run(host="0.0.0.0", port=5050)
 
-    sample.run(host="0.0.0.0", port=5050, threaded=True)
 
 
 
 
-
-
->>>>>>> Changed port from 8080 to 5050.
